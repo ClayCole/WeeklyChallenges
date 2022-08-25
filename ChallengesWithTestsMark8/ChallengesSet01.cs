@@ -50,7 +50,7 @@ namespace ChallengesWithTestsMark8
         public string GetGreeting(string nameOfPerson)
         {
             //throw new NotImplementedException();
-            return ($"Hello,{nameOfPerson}");
+            return ($"Hello,{nameOfPerson}!");
         }
 
         public string GetHey()
