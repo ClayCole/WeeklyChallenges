@@ -51,6 +51,7 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(new string[] { "a" }, false)]
         [InlineData(new string[] { "a", "b", "c" }, false)]
         [InlineData(new string[] { "a", "b", "c", "d", "e" }, false)]
+
         // [InlineData(null, false)] // Assumption: array will not be null
         public void CountOfElementsIsEven(string[] strings, bool expected)
         {
